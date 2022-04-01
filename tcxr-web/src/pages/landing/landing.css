@@ -1,3 +1,10 @@
 div {
-  background-color: lightblue;
+  background-color: lightgray;
+}
+
+.targetViewer {
+  background-color: lightyellow;
+  width: 60%;
+  margin: 10px auto;
+  text-align: center;
 }

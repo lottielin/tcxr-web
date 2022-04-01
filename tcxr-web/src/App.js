@@ -4,7 +4,7 @@ import Landing from "./pages/landing/landing";
 function App() {
   return (
     <div className="App">
-      <p>TCXR Web Prototype</p>
+      <h1>TCXR Web Prototype</h1>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
