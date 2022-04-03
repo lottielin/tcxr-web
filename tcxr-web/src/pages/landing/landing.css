@@ -8,3 +8,10 @@ div {
   margin: 10px auto;
   text-align: center;
 }
+
+.pillarContainer {
+  background-color: rgb(187, 187, 240);
+  width: 80%;
+  height: 300px;
+  margin: 10px auto;
+}
