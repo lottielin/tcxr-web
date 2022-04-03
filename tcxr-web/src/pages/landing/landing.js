@@ -32,6 +32,7 @@ class Landing extends Component {
         </div>
 
         <div className="pillarContainer">
+          <p>Pillars</p>
           <Pillar identity={this.state.target} />
         </div>
       </React.Fragment>
