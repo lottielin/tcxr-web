@@ -27,13 +27,14 @@ class Landing extends Component {
           {/* if routing to diff pages: 
           1) in-page rendering with Link (make each button in userInput a link)
           2) use optional params to label */}
-          <p>TO DO 2: dynamically render different versions of pillars</p>
           <UserInput setTarget={this.handleSetTarget} />
         </div>
 
-        <div className="pillarContainer">
-          <p>Pillars</p>
-          <Pillar identity={this.state.target} />
+        <div className="pillarViewer">
+          <p>Pillars - Approach 1: Dynamic rendering in landing page</p>
+          <div className="pillarContainer">
+            <Pillar identity={this.state.target} />
+          </div>
         </div>
       </React.Fragment>
     );

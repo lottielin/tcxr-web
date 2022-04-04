@@ -1,5 +1,5 @@
 div {
-  background-color: lightgray;
+  background-color: rgb(158, 137, 177);
 }
 
 .targetViewer {
@@ -9,13 +9,12 @@ div {
   text-align: center;
 }
 
-.pillarContainer {
-  background-color: rgb(187, 187, 240);
+.pillarViewer {
+  background-color: rgb(116, 148, 236);
   width: 80%;
-  height: 300px;
+  height: 100%;
   margin: 10px auto;
 }
-
-.pillar {
-  background-color: rgb(187, 187, 240);
+.pillarContainer {
+  background-color: pink;
 }

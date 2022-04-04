@@ -1,4 +1,4 @@
-import { Button } from "bootstrap";
+import "./pillar.css";
 
 const Pillar = (props) => {
   const pillars = [
@@ -41,7 +41,7 @@ const Pillar = (props) => {
   ];
 
   return (
-    <div>
+    <div className="pillars-box">
       {pillars.map((pillar, idx) => {
         return (
           <div className="pillar-container">
