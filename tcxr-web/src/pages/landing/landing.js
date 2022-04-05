@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import UserInput from "../../components/userInput/userInput";
 import Pillar from "../../components/pillar/pillar";
+import Executable from "../../components/executable/executable";
 import "./landing.css";
 
 class Landing extends Component {
@@ -35,6 +36,10 @@ class Landing extends Component {
           <div className="pillarContainer">
             <Pillar identity={this.state.target} />
           </div>
+        </div>
+
+        <div className="executableViewer">
+          <Executable />
         </div>
       </React.Fragment>
     );

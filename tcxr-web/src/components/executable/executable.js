@@ -1,16 +1,17 @@
 import React, { Component } from "react";
-import UserInput from "../../components/userInput/userInput";
+import { Button } from "react-bootstrap";
+import "./executable.css";
 
 class Executable extends Component {
   state = {};
   render() {
     return (
-      <div className="d-grid gap-2">
-        <Button variant="primary" size="lg">
-          Block level button
+      <div className="gap-2 executable-container">
+        <Button className="executable" variant="info" size="lg">
+          Windows Installment
         </Button>
-        <Button variant="secondary" size="lg">
-          Block level button
+        <Button className="executable" variant="light" size="lg">
+          Mac OS Installment
         </Button>
       </div>
     );
