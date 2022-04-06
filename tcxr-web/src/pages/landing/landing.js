@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import UserInput from "../../components/userInput/userInput";
 import Pillar from "../../components/pillar/pillar";
 import Executable from "../../components/executable/executable";
+import LineChart from "../../components/visualization/charts/lineChart/lineChart";
 import "./landing.css";
 
 class Landing extends Component {
@@ -40,6 +41,11 @@ class Landing extends Component {
 
         <div className="executableViewer">
           <Executable />
+        </div>
+
+        <div className="chartViewer">
+          <p>Charts demo</p>
+          <LineChart />
         </div>
       </React.Fragment>
     );
